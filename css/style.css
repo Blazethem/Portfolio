@@ -1,0 +1,53 @@
+html {
+    background-color: #305
+}
+.navbar {
+    color: #0aa;
+}
+.nav-link {
+    color: #0aa !important;
+}
+.nav-link:hover {
+    color: #00ffbe !important;
+}
+.navbar-dark {
+    background-color: #406;
+}
+.navbar-brand {
+    color: #0FF !important;
+}
+.dropdown-menu-dark {
+    background-color: #406;
+    color: #0AA;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item {
+    color:#0aa !important;
+}
+.dropdown-item:hover {
+    color: #00ffbe !important;
+}
+.texte {
+    background-color: #305;
+    color: #0FF
+}
+.hero-banner {
+    position: relative;
+    text-align: center;
+}
+.hero-title, .hero-description {
+    position: absolute;
+    background-color: #00000000;
+    color: #0FF
+}
+.hero-title {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.background {
+    background-color: #406;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Terminus";
+    src:
+        url("../fonts/terminus.ttf") format("truetype"),
+        url("../fonts/Terminus.woff") format("woff"),
+        url("../fonts/Terminus.woff2") format("woff2");
+}
+.terminus {
+    font-family: "Terminus";
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
