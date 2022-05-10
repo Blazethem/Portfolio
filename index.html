@@ -51,23 +51,39 @@
         <img src="images/header-background.png" class="img-fluid" alt="Bannière">
         <h1 class="hero-title terminus bold">Lorant Noël</h1>
     </section>
-    <section class="description texte">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit ducimus ad nisi sapiente quia! Consectetur dolore enim dolor ipsa ab in quibusdam! Voluptatum commodi aliquam vel nam laboriosam molestias.
+    <section class="container-fluid text-center texte terminus no-margin padding-bottom transparent-bg">
+        <h2 class="underlined">Petite description</h2>
+        <h4>Je m'appelle Lorant Noël, j'ai 19 ans, et j'aspire à devenir développeur.<br/>
+        Je sais me servir de divers logiciels tels que Proxmox.<br/>
+        J'ai des compétences en PHP, MySQL, PostgreSQL, Python, Javascript, et C#. Je compte également m'approprier le Java, le C++ ainsi que le lua.</h2>
     </section>
-    
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 background">
-        <p class="col-md-4 mb-0 text-left text-muted">Réalisé par Lorant Noël, avec l'aide de Bootstrap</p>
+    <section class="container-fluid big-spacing fond"></section>
+
+    <section class="container-fluid text-center texte terminus no-margin padding-bottom transparent-bg">
+        <h2 class="underlined">Mes certifications</h2>
+        <h4>
+            Je possède une certification <span class="a-like underlined"
+            title="https://app.pix.fr/verification-certificat&#10Le code de vérification sera copié dans votre presse-papier."
+            onclick="copy('code-pix');sendto('app.pix.fr/verification-certificat')">PIX</span>, me permettant de
+            bien me servir d'outils informatiques et de logiciels divers, ainsi que de bien rechercher
+            les infos nécessaires.<br/>
+        </h4>
+        <section class="spacing"></section>
+        <h4>
+            Je fais également du <span class="a-like underlined"
+            onclick="sendto('root-me.org/Blazethem')"
+            title="https://root-me.org/Blazethem&#10Accéder à mon profil">Root-me</span> sur mon temps-libre, afin d'avoir de grosses connaissances en prog, et pouvoir
+            m'informer sur les diverses failles existantes que je pourrais exploiter, et faire en sorte que cela ne m'arrive pas.
+        </h4>
+    </section>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 background sticky-down no-margin">
+        <p class="col-md-4 mb-0 text-center text-muted">Réalisé par Lorant Noël, avec l'aide de Bootstrap</p>
         <p class="col-md-4 mb-0 text-center text-muted">
-            Design inspiré de l'extension 
-            <a href="https://marketplace.visualstudio.com/items?itemName=sanchodelniglo.synthwave-80s-color-theme">
-                Synthwave 80's
-            </a>
-        </p>
-        <p class="col-md-4 mb-0 text-right text-muted">
             <a href="documents/Credits.txt">Crédits</a>
         </p>
     </footer>
 
+    <textarea class="code-pix hidden">P-2784RKHW</textarea>
     <!--Script bootstrap, à mettre en dernier.-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

@@ -1,5 +1,8 @@
 html {
-    background-color: #305
+    background-color: #305 !important;
+}
+.fond {
+    background-color: #305 !important;
 }
 .navbar {
     color: #0aa;
@@ -50,4 +53,41 @@ html {
 }
 .background {
     background-color: #406;
+}
+.sticky-down {
+    top: 100%;
+    position: sticky;
+}
+.padding-bottom {
+    padding-bottom:5px;
+}
+.no-margin {
+    margin: 0px !important;
+}
+.transparent.bg {
+    background-color: #00000000;
+}
+.spacing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.big-spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a {
+    color: #0aa;
+}
+a:hover {
+    color: #00ffbe;
+}
+.a-like {
+    color: #0aa;
+    cursor: pointer;
+}
+.a-like:hover {
+    color: #00ffbe;
+}
+.hidden {
+    display: none;
 }
