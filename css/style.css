@@ -36,6 +36,10 @@ html {
     background-color: #305;
     color: #0FF
 }
+.reversed-texte {
+    background-color: #0FF;
+    color: #305;
+}
 .hero-banner {
     position: relative;
     text-align: center;
@@ -43,7 +47,12 @@ html {
 .hero-title, .hero-description {
     position: absolute;
     background-color: #00000000;
-    color: #0FF
+    color: #0FF;
+    text-shadow:
+   -2px -2px 0 #406,  
+    2px -2px 0 #406,
+    -2px 2px 0 #406,
+     2px 2px 0 #406;
 }
 .hero-title {
     left: 50%;
@@ -53,6 +62,9 @@ html {
 }
 .background {
     background-color: #406;
+}
+.reversed-background {
+    background-color: #0FF;
 }
 .sticky-down {
     top: 100%;
@@ -90,4 +102,7 @@ a:hover {
 }
 .hidden {
     display: none;
+}
+.padding-left {
+    padding-left: 30%;
 }
